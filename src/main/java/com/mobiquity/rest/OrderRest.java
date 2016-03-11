@@ -19,7 +19,7 @@ import java.util.Date;
 @Path("/")
 public class OrderRest {
     private long id = 1;
-
+    // added comment
     @Inject
     private RestTemplate restTemplate;
 
